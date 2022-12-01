@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:auto-semi.helloWorld"
+    "onCommand:auto-semi.toggleAutoSemi"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "auto-semi.helloWorld",
-        "title": "Hello World"
+        "command": "auto-semi.toggleAutoSemi",
+        "title": "Toggle Auto Semi"
       }
     ]
   },
